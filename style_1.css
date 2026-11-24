@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.meraCard {
+  height: 250px;
+  width: 250px;
+}
+
+
+#carouselExampleFade {
+  max-width: 850px;
+  margin: 2.5rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+.carousel-inner {
+  height: 480px;
+  background-color: #1a1d20;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+
+.carousel-item img {
+  height: 480px;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
